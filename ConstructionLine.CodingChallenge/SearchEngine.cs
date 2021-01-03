@@ -21,29 +21,6 @@ namespace ConstructionLine.CodingChallenge
 
         public SearchResults Search(SearchOptions options)
         {
-            //  var shirts = _shirts.AsEnumerable();
-
-            //var colorCounts = from shirt in shirts
-            //    where options.Colors.Contains(shirt.Color) 
-            //    group shirt by shirt.Color
-            //    into colorGroup
-            //    select new ColorCount()
-            //    {
-            //        Color = colorGroup.Key,
-            //        Count = colorGroup.Count()
-            //    };
-
-            //var sizeCounts = from shirt in shirts
-            //    where options.Sizes.Contains(shirt.Size)
-            //    group shirt by shirt.Size
-            //    into sizeGroup
-            //    select new SizeCount()
-            //    {
-            //        Size = sizeGroup.Key,
-            //        Count = sizeGroup.Count()
-            //    };
-           
-
             // TODO: search logic goes here.
 
             if (options != null)
